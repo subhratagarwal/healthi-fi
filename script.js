@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (username && password) {
             localStorage.setItem(username, password);
-            alert('Signup successful! Please login.');
+            alert('Signup successfull, Welcome User!!');
         } else {
-            alert('Please enter a username and password.');
+            alert('Please enter a valid username and password.');
         }
     }
 
@@ -27,21 +27,23 @@ document.addEventListener('DOMContentLoaded', () => {
         const storedPassword = localStorage.getItem(username);
         
         if (storedPassword === password) {
+            
             document.getElementById('welcomeUser').innerText = username;
             document.getElementById('signup').style.display = 'none';
             document.getElementById('login').style.display = 'none';
             document.getElementById('welcome').style.display = 'block';
+            alert("Login successfull, Welcome back!!");
         } else {
             alert('Invalid username or password.');
         }
     }
 
-    function logout() {
-        document.getElementById('welcomeUser').innerText = '';
-        document.getElementById('signup').style.display = 'block';
-        document.getElementById('login').style.display = 'block';
-        document.getElementById('welcome').style.display = 'none';
-    }
+    // function logout() {
+    //     document.getElementById('welcomeUser').innerText = '';
+    //     document.getElementById('signup').style.display = 'block';
+    //     document.getElementById('login').style.display = 'block';
+    //     document.getElementById('welcome').style.display = 'none';
+    // }
 
     window.onscroll = () => {
         let top = window.scrollY;
