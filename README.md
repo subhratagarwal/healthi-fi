@@ -66,7 +66,7 @@ education regarding Diseases
 education regarding Medicines
 
 
- ## Contact
+ ## Contact & Team
 email--  aish9045@gmail.com
  
 ![Screenshot 2024-05-19 225536](https://github.com/suhanigoel24/Healthif-i/assets/66861871/9c3f1f42-b4c0-4c9b-80bc-689a6b757554)
