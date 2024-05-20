@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0;
     padding: 0;
     font-family: montserrat;
@@ -37,7 +37,7 @@ form .textfield{
 
 .textfield input{
     width: 100%;
-    padding: 0 5px;
+    padding 0 5px;
     height: 40px;
     font-size: 16px;
     border: none;
@@ -128,31 +128,48 @@ input[type="submit"]:hover{
     color: #666666;
 }
 
-.login_link a{
+#redirect{
+
+background-color: #2691d9; 
+  border: none;
+  border-radius: 24px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.login_link a {
     color: #2691d9 ;
     text-decoration: none;
 }
 
 .login_link a:hover{
     text-decoration: underline;
-} */
-#container {
-    width: 300px;
-    margin: auto;
-    padding-top: 100px;
 }
-#signup, #login, #welcome {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
+
+
+ #re-redirect{
+  background-color: #2691d9; 
+  border: none;
+  border-radius: 24px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
 }
-input {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-button {
-    padding: 10px;
-    width: 100%;
-}
+

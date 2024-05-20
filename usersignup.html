@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
         <h1>Sign Up</h1>
         <form method="post">
             <div class="textfield">
-                <input type="text" required>
+                <input type="text" id="signupUsername" required>
                 <span></span>
                 <label>Username</label>
             </div>
@@ -22,11 +22,11 @@
             </div>
 
             <div class="textfield">
-                <input type="password" required>
+                <input type="password" id="signupPassword" required>
                 <label>Password</label>
             </div>
-
-            <input type="submit" value="Sign Up">
+            <a  href="hospital_online_appointment/main.html"><button id="redirect"
+                 onclick="signup()">Signup</button></a>
             <div class="login_link">
                Already a member? <a href="/userlogin.html">Login </a>
             </div>
@@ -36,4 +36,4 @@
     </div>
 
 </body>
-</html> -->
+</html>
